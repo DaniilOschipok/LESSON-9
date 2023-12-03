@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+}
+
+.nav {
+  background-color: #EFEFEF;
+}
+.nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.nav .menu__ithem {
+  padding: 17px 10px;
+  font-weight: 400;
+}
+
+.nav2 {
+  background-color: #FFFFFF;
+  border-top: 1px solid #EFEFEF;
+}
+.nav2 .menu2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.nav2 .menu2__ithem2 {
+  padding: 30px 15px;
+  font-weight: 400;
+}
+
+.callback {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: none;
+  padding: 20px 0;
+}
+.callback .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.callback .logo__text {
+  text-transform: uppercase;
+  color: #F13C6E;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 3.6px;
+}
+.callback .cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.callback .cta__link {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: none;
+  color: #333333;
+}
+.callback .cta__btn {
+  font-weight: 400;
+  color: #333333;
+  border-radius: 40px;
+  border: 2px solid;
+  border-radius: 40px;
+  padding: 8px 50px;
+  border-color: #F13C6E;
+  background-color: #FFFFFF;
+}
+
+.special {
+  background-color: #EFEFEF;
+  padding: 80px 0;
+  width: 100%;
+}
+.special .container {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.special .container .goods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.special .container .goods__title {
+  background-color: #EFEFEF;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 38px;
+  align-self: center;
+  width: 80%;
+}
+.special .container .goods .goods-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 80%;
+}
+.special .container .goods .goods-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 25px;
+  background-color: #FFFFFF;
+}
+.special .container .goods .goods-list__item img {
+  width: 125px;
+}
+.special .container .goods .goods-list__item .name {
+  font-family: "Roboto", sans-serif;
+  font-size: none;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: center;
+  width: 80%;
+  color: #333333;
+}
+.special .container .goods .goods-list__item .price {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: none;
+  letter-spacing: 1.05px;
+  color: #333333;
+  text-align: center;
+}
+.special .container .goods .goods-list__item .btn {
+  border-radius: 30px;
+  background-color: #F13C6E;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  padding: 9px 53px;
+}
+
+.promo {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 30px;
+  width: 90%;
+  margin: 100px 0;
+}
+.promo .card {
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  gap: 22px;
+  background-color: #F13C6E;
+  padding: 35px 40px;
+}
+.promo .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.promo .card__name {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+}
+.promo .card__text {
+  font-family: "Roboto", sans-serif;
+  font-size: none;
+  font-weight: 400;
+  line-height: 155%;
+  color: #FFFFFF;
+  width: 60%;
+}
+.promo .card__input {
+  font-weight: 400;
+  width: 220px;
+  padding: 9px 0 9px 25px;
+  color: #333333;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.promo .card__input::-moz-placeholder {
+  color: #EFEFEF;
+}
+.promo .card__input::placeholder {
+  color: #EFEFEF;
+}
+.promo .card__btn {
+  color: #FFFFFF;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  padding: 9px 53px;
+}
+.promo .card__img {
+  max-width: 189px;
+}
+
+.brands {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.brands .brands-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: none;
+  justify-content: center;
+  gap: 1px;
+}
+.brands .brands-list__item {
+  background-color: #FFFFFF;
+  padding: 35px 60px;
+}
+
+.sale {
+  background-image: url("../images/Rectangle 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 440px;
+}
+.sale__content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+  padding-top: 130px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: none;
+  gap: 30px;
+}
+.sale__title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.sale__text {
+  color: #FFFFFF;
+  font-weight: 400;
+  width: 23%;
+}
+.sale__btn {
+  color: #FFFFFF;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  padding: 9px 65px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 60px 0;
+  gap: 30px;
+  border-bottom: 1px solid #EFEFEF;
+}
+.categories__popular {
+  width: 16.5%;
+}
+.categories__popular .categories-list {
+  padding-top: 20px;
+  color: var(--gray);
+  line-height: 25px;
+}
+.categories__title {
+  border-bottom: 1px solid #EFEFEF;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  gap: 180px;
+}
+.line__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.line__link {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: none;
+  color: #333333;
+}
+.line__btn {
+  font-weight: 400;
+  color: #333333;
+  border-radius: 40px;
+  border: 2px solid;
+  border-radius: 40px;
+  padding: 8px 50px;
+  border-color: #F13C6E;
+  background-color: #FFFFFF;
+}
+
+.inf {
+  background-color: #EFEFEF;
+  display: flex;
+  justify-content: space-around;
+  padding: 22px 0;
+  color: #828282;
+  gap: 100px;
+}/*# sourceMappingURL=style.css.map */
